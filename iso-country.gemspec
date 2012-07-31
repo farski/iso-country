@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ['chris@farski.com']
   gem.description   = %q{A standard way of handling country data}
   gem.summary       = %q{A standard way of handling country data}
-  gem.homepage      = ''
+  gem.homepage      = 'https://github.com/farski/iso-country'
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
